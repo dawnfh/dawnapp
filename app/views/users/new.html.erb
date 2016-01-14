@@ -1,0 +1,31 @@
+
+	<div class="shadow2">
+		<div class="shadow1">
+
+			<h1> DawnApp Users</h1>
+			
+					
+		<%= form_for @user do |f| %>
+		 
+		  <%= f.label :fname %><br> 
+		  <%= f.text_field :fname %><br><hr>
+
+		  <%= f.label :lname %><br>
+		  <%= f.text_field :lname %><br><hr>
+		 
+		  <%= f.label :email %><br>
+		  <%= f.email_field :email %><br><hr>
+		 
+		  <%= f.label :password %><br>
+		  <%= f.password_field :password %><br><hr>
+
+		 
+		  <button id="b"><%= f.submit "Create" %></button>
+		 
+			<% end %>
+
+	
+	</div>
+</div>
+
+
